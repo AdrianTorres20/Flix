@@ -25,4 +25,5 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 Describe any challenges encountered while building the app.
+
 A challenge I encountered while building the app was creating a good size movie cell in order to fit all of the content view which included a title label, synopsis label, and poster view, which I was able to do. Also, a challenge I encountered was trying to create a file in the new Xcode meny on my own before noticing the drop down button at the bottom of the instructions on how to create a file with the Cocoa Touch Class, which helped me understand the process. Another challenge I encountered was installing AlamoFireImage using Swift Package Manager (SPM), since I wasn't able to create a path to my app through the terminal in order to successfully create pods, which I ended up figuring out.
