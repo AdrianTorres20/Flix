@@ -2,7 +2,26 @@
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
+## Flix Part 2
+
+### User Stories
+
+#### REQUIRED (10pts)
+- [x] (5pts) User can tap a cell to see more details about a particular movie.
+- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+
+#### BONUS
+- [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
+- [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+
+### App Walkthrough GIF
+
+<img src="http://g.recordit.co/bXKh2yFvoy.gif" width=250><br>
+
+### Notes
+Describe any challenges encountered while building the app.
+
+One challenge I encountered while building the app was creating the Superhero Network Request.  At first, the code wasn't displaying the super hero movies that I wanted on the Super hero screen. I was able able to use the API by copy and pasting it to the code that was part of the Superhero Network Request and I was able to display the movies that I wanted. Also a challenge I encountered was resizing the movie posters which were small in size and needed to be evenly spaced out. I was able to challenge myself by trying to find the solution on my own before looking at the provided solution. Another challenge I encountered was changing some of the screens color backgrounds, since it would cut out some of the information that was being displayed. I was able to test new approaches on story board in order to successfully change the background colors.
 
 ---
 
