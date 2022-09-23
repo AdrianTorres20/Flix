@@ -163,9 +163,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7Cj-S0-EHA">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7Cj-S0-EHA">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jl8-Zn-jTD">
                                     <size key="itemSize" width="195" height="217"/>
@@ -197,6 +196,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="K9m-2v-cOT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7Cj-S0-EHA" firstAttribute="top" secondItem="Kmk-SF-2Vn" secondAttribute="top" id="0oX-64-hSD"/>
+                            <constraint firstAttribute="bottom" secondItem="7Cj-S0-EHA" secondAttribute="bottom" id="UIm-fQ-Jek"/>
+                            <constraint firstItem="7Cj-S0-EHA" firstAttribute="trailing" secondItem="K9m-2v-cOT" secondAttribute="trailing" id="Vjq-Ow-Wfc"/>
+                            <constraint firstItem="7Cj-S0-EHA" firstAttribute="leading" secondItem="K9m-2v-cOT" secondAttribute="leading" id="geT-WR-3AV"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Superhero" id="lyy-Ky-zqh"/>
                     <connections>
